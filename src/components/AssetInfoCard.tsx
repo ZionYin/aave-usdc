@@ -13,7 +13,7 @@ const AssetInfoCard = ({ assetSymbol }: Props) => {
       <h2 className="text-center mb-4">{assetReserve?.name}</h2>
       <div className="card text-center">
         <div className="card-header bg-primary text-white">
-          USDC Market Data
+          {assetReserve?.symbol} Market Data
         </div>
         <div className="card-body">
           <div className="row">
