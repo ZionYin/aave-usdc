@@ -1,9 +1,10 @@
+import AssetInfoCard from "./components/AssetInfoCard";
 const Home = () => {
-    return (
-        <div>
-            <h1>Home</h1>
-        </div>
-    )
-}
+  
 
-export default Home
+  return (
+      <AssetInfoCard assetSymbol="USDC" />
+  );
+};
+
+export default Home;
